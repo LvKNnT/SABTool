@@ -10,13 +10,13 @@ from selenium.webdriver.support import expected_conditions as EC
 # Download the Edge WebDriver from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 # If using a different browser, search for its WebDriver. Ensure compatibility between the WebDriver and the browser version.
 # Extract and replace the path here
-msdriver = "D:/Downloads/edgedriver_win64/msedgedriver.exe"
+msdriver = "E:/Downloads/edgedriver_win64/msedgedriver.exe"
 
 # Save rate: save data every 10 students
 SAVE_RATE = 10
 
 # Student prefix: the year of the student ID
-student_prefix = "22"
+student_prefix = "25"
 
 # Path to the CSV file
 filePath = 'NN' + str(student_prefix) + '.csv'
